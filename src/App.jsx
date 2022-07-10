@@ -1,13 +1,13 @@
-import { useState } from 'react'
 
+import Dog from '../components/dog';
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(5)
 
   return (
     <div className="App">
-      <h1>Heller</h1>
+      <h1>Hello</h1>
+      <Dog />
     </div>
   )
 }
